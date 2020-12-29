@@ -1,6 +1,8 @@
 package com.fastsees.updategoodsprice;
+
 import com.fastsees.updategoodsprice.javabeans.GoodsList;
 import com.google.gson.Gson;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.URL;
@@ -64,5 +66,6 @@ public class SearchBook {
             }
         }
         return result.toString();
+        //hahalolo
     }
 }
