@@ -33,8 +33,8 @@ public class SearchBook {
             }
 
       }
-        //    System.out.println(getGooslist("9780205395101"));666666666666666
-         }
+
+    }
     private  static GoodsList gsonUtil(String isbn) {
         Gson gson=new Gson();
         GoodsList result=gson.fromJson(getGooslist(isbn), GoodsList.class);
